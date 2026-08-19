@@ -8,6 +8,6 @@ jobs:
   estag:
     runs-on: ubuntu-latest
 
-  steps:
-    -name: baixar código do rep.
-    uses: action/checkout@v4
+    steps:
+      -name: baixar código do rep.
+      uses: action/checkout@v4
