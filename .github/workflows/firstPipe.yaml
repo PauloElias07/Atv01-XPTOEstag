@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: baixar código do rep.
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
