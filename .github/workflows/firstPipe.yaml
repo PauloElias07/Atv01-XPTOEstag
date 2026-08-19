@@ -3,3 +3,7 @@ name: firstPipe
 on: 
   push:
     branches: [main]
+
+jobs:
+  estag:
+    runs-on: ubuntu-latest
