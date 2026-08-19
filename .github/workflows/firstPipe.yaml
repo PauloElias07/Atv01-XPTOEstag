@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: baixar código do rep.
-      uses: action/checkout@v4
+      - name: baixar código do rep.
+        uses: action/checkout@v4
